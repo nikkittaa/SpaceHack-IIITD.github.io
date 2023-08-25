@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <style>
+        model-viewer {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        body {
+            background-image: url('aa.jpeg');
+        }
+    </style>
+</head>
+
+<body>
+    <model-viewer src="rocket.glb" alt="A 3D model of a communication satellite" auto-rotate
+        camera-controls </model-viewer>
+</body>
+
+</html>
